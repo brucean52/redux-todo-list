@@ -1,5 +1,5 @@
 {
-  "name": "redux todo list",
+  "name": "redux-todo-list",
   "version": "1.0.0",
   "description": "Todo list in redux",
   "main": "index.js",

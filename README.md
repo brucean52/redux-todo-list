@@ -1,4 +1,4 @@
-#Redux To Do List
+# Redux To Do List
 
 > A To Do App built with React and Redux
 
