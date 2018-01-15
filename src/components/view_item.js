@@ -10,7 +10,7 @@ class ViewItem extends Component {
     }
 
     render(){
-        console.log("ViewItem props:", this.props);
+        //console.log("ViewItem props:", this.props);
         if(!this.props.single){
             return null
         }

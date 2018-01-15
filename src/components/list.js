@@ -10,13 +10,16 @@ class List extends Component {
     componentDidMount(){
         this.props.getItems();
     }
+
     render(){
-        console.log("List props: ", this.props);
+        //console.log("List props: ", this.props);
 
         const listItems = this.props.list.map((item, index) => {
+            //console.log('list items', item);
             return(
-                <ListItem key={index} {...item}/>
-            )
+
+                    <ListItem key={index} {...item}/>
+           );
         });
         return(
             <div>
