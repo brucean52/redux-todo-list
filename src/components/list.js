@@ -22,18 +22,16 @@ class List extends Component {
            );
         });
         return(
-            <div>
-                <div className="row my-4 justify-content-end">
-                    <div className="col-2">
-                    <Link to="/add-item" className="btn btn-outline-primary">Add To Do Item</Link>
-
-                    </div>
-                </div>
-                <h1>To Do List</h1>
-                <ul className="text-center">
-                    {listItems}
-                </ul>
+            <div id="accordion" role="tablist">
+                <div className="card">
+                    <div className="card-header" role="tab" id="headingOne">
+                    <h5 className="mb-0">
+                        <a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                        </a>
+                    </h5>
             </div>
+
         );
     }
 }
